@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora de Gorjeta</title>
+</head>
+<body>
+    <div id="container">
+       <div>
+        <h1 class="title">Calculadora de Gorjeta</h1>
+       </div>
+       <div>
+         <form class="tipsForms" id="tipsForms">
+            <label for="Conta">
+            <p>Quanto ficou a Conta:</p>
+            </label>
+            <p>
+                R$ <input type="number" placeholder="Valor" name="Conta" id="Conta" class="imputForms" required>
+            </p>
+            <label for="Qualidade">
+                <p>Como foi seu serviço:</p>
+            </label>
+                <p>
+                    <select name="Qualidade" id="Qualidade" class="selectForms" required>
+                        <option disabled selected value="0">Escolha uma opção</option>
+                        <option value="0.30">30% - Incrível</option>
+                        <option value="0.20">20% - Bom</option>
+                        <option value="0.15">15% - Aceitável</option>
+                        <option value="0.10">10% - Ruim</option>
+                        <option value="0">0% - Péssimo</option>
+                    </select>
+                </p>
+                <label for="Pessoas">
+                    <p>Quantas pessoas vão dividir a conta:</p>
+                </label>
+                <p>
+                    <input type="number" placeholder="1" name="Pessoas" id="Pessoas" class="imputForms" required>
+                </p>
+                <button type="submit" class="formSubmit">Calcular</button>
+        </form>
+       </div>
+       <div id="totalTips">
+        Gorjeta Total:
+        R$<span id="Tips">0.00</span>
+        <span id="Cada">Cada</span>
+       </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>   
+</body>
+</html>
