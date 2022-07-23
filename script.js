@@ -5,7 +5,7 @@ function calculateTip(event) {
     let Pessoas=document.getElementById('Pessoas').value;
                   
     if(Conta == ""| Qualidade ==0){
-        alert("Campos Obrigatorios")
+        alert("Campos Obrigatórios")
         return;
     }
     if(Pessoas == "" | Pessoas <= 1){
