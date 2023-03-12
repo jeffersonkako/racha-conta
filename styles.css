@@ -20,6 +20,7 @@ body {
     box-shadow: 3px 3px 3px black;
     border-radius: 20px;
     text-align: center;
+    position: relative;
 }
 
 .title {
@@ -79,7 +80,7 @@ body {
 }
 
 footer {
-    position: fixed;
-    bottom: 200px;
-    left: 440px;
+    position: absolute;
+    bottom: -40px;
+    left: 140px;
 }
