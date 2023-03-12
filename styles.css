@@ -19,6 +19,7 @@ body {
     background: #110f18;
     box-shadow: 3px 3px 3px black;
     border-radius: 20px;
+    text-align: center;
 }
 
 .title {
@@ -40,8 +41,10 @@ body {
 
 .imputForms {
     background-color: white;
-    width: 80px;
-    padding: 5px 5px 8px 8px;
+    width: 180px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 20px;
 }
 
 .imputForms:focus {
@@ -50,9 +53,10 @@ body {
 }
 
 .selectForms {
-    width: 220px;
-    padding: 4px;
+    width: 200px;
+    padding: 10px;
     font-size: 18px;
+    border-radius: 20px;
 }
 
 .formSubmit {
@@ -70,7 +74,6 @@ body {
 
 #totalTips {
     font-size: 20px;
-    margin-top: 5px;
     text-align: center;
     color: var(--segunda-cor);
 }
