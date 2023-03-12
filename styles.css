@@ -77,3 +77,9 @@ body {
     text-align: center;
     color: var(--segunda-cor);
 }
+
+footer {
+    position: fixed;
+    bottom: 200px;
+    left: 440px;
+}
