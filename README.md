@@ -1,8 +1,7 @@
-# Racha Conta
+# Racha Gorjeta
 
 Calculadora de gorjetas para bares 😉
 
-![image](https://user-images.githubusercontent.com/104142117/224525066-3aa5f5ee-bb3b-466f-b7c5-ceb92349fcac.png)
-![image](https://user-images.githubusercontent.com/104142117/224525076-4f65df65-8c86-4fa4-99c3-63ab9c8c3e36.png)
-
+![image](https://user-images.githubusercontent.com/104142117/224542221-9f73bc0e-e581-4f40-b071-e20a49b3ac9c.png)
+![image](https://user-images.githubusercontent.com/104142117/224542251-5122064c-24f8-4527-83c5-d4caef8a12db.png)
  
