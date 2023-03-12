@@ -5,6 +5,7 @@
   --quarta-cor: #110f18;
   --quinta-cor: #4d4d4d
 }
+
 body {
     background-color: var(--primeira-cor);
     font-size: 15px;
